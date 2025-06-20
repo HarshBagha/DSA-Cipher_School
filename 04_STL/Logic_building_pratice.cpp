@@ -112,7 +112,7 @@ return -1;
 
 // check if array is sorted or not: 
 
-bool arraySorted(int arr[], int size){
+bool isSorted(int arr[], int size){
   
   // we can use is_sorted array func:
 
@@ -126,7 +126,7 @@ bool arraySorted(int arr[], int size){
   // }
 
   for(int i =0;i<size-1;i++){
-    if(arr[i]>arr[i+1]){
+    if(arr[i]>arr[i+1]){               // arr[i] < arr[i-1]  return is true in this case
       return false;
     }
   }
@@ -144,6 +144,6 @@ int main(){
   // Reversearray(arr, 5);  
   // secondlargest(arr, 5);
   // cout<<repeatingElement(arr, 5);
-  cout<<arraySorted(arr, 5);
+  cout<<isSorted(arr, 5);
   
 }
