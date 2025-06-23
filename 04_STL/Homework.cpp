@@ -57,6 +57,5 @@ int main(){
   // elementgreaterthanK(v2, k);
   palindromeOrNot(arr,5);
 
-
 }
 

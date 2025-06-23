@@ -58,8 +58,6 @@ void Reversearray(int arr[], int size){
   } 
 }
 
-// If an array is a palindrome or not? 
-
 // Find the second largest element: 
 
 void secondlargest(int arr[], int size){
@@ -132,6 +130,8 @@ bool isSorted(int arr[], int size){
   }
   return true;
 }
+
+
 
 int main(){
 
