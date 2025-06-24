@@ -33,6 +33,9 @@ void bubblesort(int arr[], int n){
   }
 }
 
+
+
+
 void insertionSort(int arr[], int n){
   for(int i =1; i<n ;i++){
     int j = i-1;         // left side of i to compare the element with ith value
@@ -40,7 +43,7 @@ void insertionSort(int arr[], int n){
 
     while(j>=0 && arr[j]> key){    // checking jth value is greater than i th 
       arr[j+1] = arr[j];       // here it shifts the element to next index 
-      j--;
+      j--;                     // it's checking each previous element with the updated one
     }
     arr[j+1] = key;
   }
@@ -51,7 +54,7 @@ void insertionSort(int arr[], int n){
 
 int main(){
 
-  int arr[5] = {9,8,2,5,1};
+  int arr[5] = {3,2,1,0,2};
   
   // selectionsort(arr,5);
   // bubblesort(arr, 5);
@@ -62,6 +65,4 @@ int main(){
 
   
 
-
-  
 }
