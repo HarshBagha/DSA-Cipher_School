@@ -84,8 +84,7 @@ int main(){
 
   /* H.W. : 
   Find the first and last occurance of three: arr  = 1,3,3,3,3,5,7,8,8
-  find the total occurance of 3 : you have last and first occurance minus kr dena
-  LEET CODE: 34 
+  find the total occurance of 3 
   */
 
 

@@ -18,7 +18,7 @@ int main(){
 
   // for(int i = 0;i<5;i++){
   //   cout<<arr[i]<<endl;
-  // }
+  // }d
 
   cout<<"Sum of the array elements are : "<<endl;
   int sum = 0; 
