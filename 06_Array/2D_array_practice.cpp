@@ -92,7 +92,7 @@ int main(){
   // cout<<isPresent(arr, 9, 3, 4);
   // printtheSum(arr);
   
-  wavePrint(arr,3,4); // do this again 
+  wavePrint(arr,3,4); // dry it for better understanding 
   // spiralprint(arr, 3, 4);
   
 

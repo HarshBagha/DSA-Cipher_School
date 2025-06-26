@@ -15,7 +15,7 @@ void selectionsort(int arr[], int size){
     }
     swap(arr[min], arr[i]);
   }
-}
+} 
 
 void bubblesort(int arr[], int n){
   
