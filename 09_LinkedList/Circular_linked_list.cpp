@@ -57,7 +57,22 @@ void insertAtBeginning(Node* &head, int val){
 }
 
 
-// INSERT AT THE END
+// INSERT AT THE POSTION
+
+void insertAtPosition(Node*&head, int pos, int val){
+
+  Node* n= new Node(val);
+  Node* temp = head;
+
+  for(int i = 0; i<pos-1; i++){
+
+    temp = temp->next;
+
+  }
+  n->next = temp->next;
+  temp->next = n;
+
+}
 
 // Printing Circular LinkedList:
 
