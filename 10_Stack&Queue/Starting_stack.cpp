@@ -2,6 +2,7 @@
 #include<stack>
 
 using namespace std;
+// Stack : entry from one end and removing from the same end but using the LIFO approach. 
 
 int main(){
 
