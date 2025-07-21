@@ -142,11 +142,12 @@ class lion : public Animal{
   }
 };
 
+
 int main(){
   Dog dog1;
   dog1.eat();
 
-  Animal a1;
+  Animal a1;  
   a1.eat();   // parent can run his func but can't have a access of child class function 
 
   lion l;
