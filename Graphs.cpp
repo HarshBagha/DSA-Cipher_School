@@ -34,6 +34,8 @@ class Graph{
     //   cout<<endl;
     // }
 
+
+    // if don't want ',' in the last
     for(auto i : adj) {
     cout << i.first << " -> ";
     for(auto it = i.second.begin(); it != i.second.end(); ++it){
